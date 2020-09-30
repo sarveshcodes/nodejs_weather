@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	
+
+</head>
+	
+<body>
+	<div class="main">    {{>header}}
+	
+	<p>This site is for telling weather</p>
+
+	<form>
+		<input autocomplete="off" id="location" type='text' placeholder="Location">
+		<button>Search</button>
+	</form>
+
+	<p id="message-1"></p>
+	<p id="message-2"></p>
+	
+	</div>
+
+
+
+   {{>footer}}
+   <script src="/js/app.js"> </script>
+
+
+</body>
+</html>
