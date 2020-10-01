@@ -1,6 +1,6 @@
 
 
-console.log("client side is loaded")
+console.log("client   side is loaded")
 
 
 const form=document.querySelector('form')
