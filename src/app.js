@@ -2,8 +2,15 @@ const express=require('express')
 
 const path=require('path')
 const hbs=require('hbs')
-const app=express()
+
 const api=require('../utils/api.js')
+
+const app=express()
+const port = process.env.PORT || 3000
+
+
+
+
 
 
 
@@ -72,7 +79,7 @@ app.get('*',(req,res)=>{
         title:"404 Page"
     })
 })
-app.listen(3000,()=>{
-    console.log("Server is running")
+app.listen(port,()=>{
+    console.log("Server is running on port"+port)
 }
 )
